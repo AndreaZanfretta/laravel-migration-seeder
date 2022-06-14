@@ -12,7 +12,7 @@
         @include('partials.nav')
     </header>
     <main>
-        @include('partials.main')
+        @yield('main')
     </main>
 
 </body>

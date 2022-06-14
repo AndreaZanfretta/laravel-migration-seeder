@@ -11,7 +11,7 @@
                       <p class="card-text">Destinazione: {{$package->destination}}</p>
                       <p class="card-text">Giorni: {{$package->days}}</p>
                       <p class="card-text">Prezzo: {{$package->price}} €</p>
-                      <a href="#" class="card-link">Scopri di più</a>
+                      <a href="{{route('detail', $package->id)}}" class="card-link">Scopri di più</a>
                     </div>
                   </div>
             </div>
